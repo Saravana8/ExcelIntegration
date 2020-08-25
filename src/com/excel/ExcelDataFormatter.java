@@ -37,7 +37,7 @@ public class ExcelDataFormatter {
 		recorder.start();
 
 		driver.manage().window().maximize();
-		driver.get("http://www.adactin.com/HotelApp/index.php");
+		driver.get("http://leaftaps.com/opentaps/control/main");
 		driver.manage().timeouts().implicitlyWait(50, TimeUnit.SECONDS);
 
 		File loc = new File("C:\\Users\\sarav\\Downloads\\DataSheet.xlsx");
@@ -61,14 +61,14 @@ public class ExcelDataFormatter {
 				}
 			}
 
-			driver.findElement(By.id("login")).click();
+			driver.findElement(By.xpath("//*[@type='submit']")).click();
 			
-			WebElement error = driver.findElement(By.xpath("//*[contains(text(),'Invalid Login details')]"));
-			String text = error.getText();
-			Cell c = r.createCell(2);
-			c.setCellValue(text);
-			FileOutputStream out = new FileOutputStream(loc);
-			w.write(out);
+			 WebElement error = driver.findElement(By.xpath("//*[contains(text(),'login: User not found')]"));
+			 String text = error.getText();
+			 Cell c = r.createCell(2);
+			 c.setCellValue(text);
+			 FileOutputStream out = new FileOutputStream(loc);
+			 w.write(out);
 
 		}
 		driver.quit();

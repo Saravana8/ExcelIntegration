@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="10247" started-at="2020-08-18T13:19:26Z" finished-at="2020-08-18T13:19:37Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="10247" started-at="2020-08-18T13:19:26Z" finished-at="2020-08-18T13:19:37Z">
+      <class name="com.excel.DataProviderwithExcel">
+        <test-method status="PASS" signature="browserLaunch()[pri:0, instance:com.excel.DataProviderwithExcel@d2cc05a]" name="browserLaunch" is-config="true" duration-ms="7467" started-at="2020-08-18T13:19:26Z" finished-at="2020-08-18T13:19:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method status="PASS" signature="getLoginTest(java.lang.String, java.lang.String)[pri:0, instance:com.excel.DataProviderwithExcel@d2cc05a]" name="getLoginTest" duration-ms="438" started-at="2020-08-18T13:19:34Z" data-provider="getLoginData" finished-at="2020-08-18T13:19:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Anand]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ana12]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getLoginTest -->
+        <test-method status="PASS" signature="getLoginTest(java.lang.String, java.lang.String)[pri:0, instance:com.excel.DataProviderwithExcel@d2cc05a]" name="getLoginTest" duration-ms="416" started-at="2020-08-18T13:19:35Z" data-provider="getLoginData" finished-at="2020-08-18T13:19:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Krishna]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[krish56]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getLoginTest -->
+        <test-method status="PASS" signature="getLoginTest(java.lang.String, java.lang.String)[pri:0, instance:com.excel.DataProviderwithExcel@d2cc05a]" name="getLoginTest" duration-ms="389" started-at="2020-08-18T13:19:35Z" data-provider="getLoginData" finished-at="2020-08-18T13:19:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sekar]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[seka678]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getLoginTest -->
+        <test-method status="PASS" signature="getLoginTest(java.lang.String, java.lang.String)[pri:0, instance:com.excel.DataProviderwithExcel@d2cc05a]" name="getLoginTest" duration-ms="474" started-at="2020-08-18T13:19:36Z" data-provider="getLoginData" finished-at="2020-08-18T13:19:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Kiru]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Kiru098]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getLoginTest -->
+        <test-method status="PASS" signature="getLoginTest(java.lang.String, java.lang.String)[pri:0, instance:com.excel.DataProviderwithExcel@d2cc05a]" name="getLoginTest" duration-ms="465" started-at="2020-08-18T13:19:36Z" data-provider="getLoginData" finished-at="2020-08-18T13:19:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Muthu]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Muthu76]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getLoginTest -->
+      </class> <!-- com.excel.DataProviderwithExcel -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
